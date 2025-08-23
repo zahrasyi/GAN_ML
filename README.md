@@ -3,19 +3,19 @@ Proyek ini merupakan implementasi Generative Adversarial Network (GAN) sederhana
 Tujuan dari proyek ini adalah mempelajari cara kerja GAN dalam menghasilkan gambar baru dari dataset MNIST, serta memvisualisasikan proses pelatihan melalui grafik loss dan contoh gambar yang dihasilkan Generator.
 
 # Struktur Project
-GAN-Project: 
+GAN_kelompok1: 
 - data/FashionMNIST/raw  ----Folder untuk menyimpan hasil gambar dari Generator
 - generated-images       ----Folder untuk menyimpan model yang sudah dilatih
 - README.md              ----Dokumentasi project
 - discriminator_fixed.pth        
 - ganerator_fixed.pth            
-- gan_ml.ipynb           ----notebook utama (kode GAN + visualisasi)
+- gan_kelompok1.ipynb           ----notebook utama (kode GAN + visualisasi)
 - kurva.jpg              ----visualisasi kurva
 - running_epoch.jpg      ----visualisasi hasil per-epoch nya
 
 # Clone repository
-git clone https:[https://github.com/zahrasyi/GAN_ML.git]
-cd GAN-Project
+git clone https:[https://github.com/zahrasyi/GAN_kelompok1.git]
+cd GAN_kelompok1
 
 Install dependency
 - Dengan pip
@@ -29,7 +29,7 @@ Install dependency
 # Menjalankan Project
 
 Buka file notebook  
-train_gan.ipynb  
+GAN_kelompok1.ipynb  
 di Jupyter Notebook atau VS Code (dengan Jupyter extension).  
 Jalankan cell secara berurutan:  
 `1.` Setup & Import Library    
