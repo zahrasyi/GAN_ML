@@ -37,4 +37,38 @@ Jalankan cell secara berurutan:
 
 Selama proses training, model mencatat perkembangan nilai loss Generator (G) dan Discriminator (D) dari epoch 1 hingga epoch 100.
 
-![Gambar hasil epoch 20](runing_epoch.jpg)
+**Running Epoch (Output Training Log)**
+
+![Gambar hasil runing epoch](runing_epoch.jpg)
+
+Dari hasil running, terlihat bahwa:
+- Discriminator Loss (D Loss) relatif stabil di kisaran 1.33 – 1.38.
+- Generator Loss (G Loss) bergerak di kisaran 0.75 – 0.85 dengan sedikit fluktuasi.
+- Perubahan nilai loss ini menunjukkan adanya kompetisi yang seimbang: Discriminator tetap cukup kuat membedakan data asli dan palsu, sementara Generator berangsur-angsur meningkatkan kualitas gambar yang dihasilkan.
+
+Selain melihat hasil gambar, proyek ini juga memvisualisasikan perubahan nilai loss dari Generator dan Discriminator sepanjang proses training (epoch 1 sampai 100).
+
+![Gambar hasil epoch 20](generated_images/epoch_20.png)
+
+Epoch awal (1–20) → Loss cenderung fluktuatif karena model masih beradaptasi. Generator berusaha menghasilkan gambar yang masuk akal, sementara Discriminator masih mudah membedakan gambar asli dan palsu.
+
+![Gambar hasil epoch 60](generated_images/epoch_60.png)
+
+Epoch menengah (20–60) → Kurva loss mulai lebih stabil. Generator semakin mampu menghasilkan pola angka, dan Discriminator menghadapi tantangan lebih besar untuk membedakan data asli dengan hasil Generator.
+
+![Gambar hasil epoch 100](generated_images/epoch_100.png)
+
+Epoch lanjut (60–100) → Nilai loss Generator dan Discriminator relatif seimbang. Pada tahap ini, Generator sudah cukup terlatih untuk menghasilkan gambar menyerupai angka MNIST, sementara Discriminator masih berusaha membedakan, sehingga terjadi kompetisi yang sehat.
+
+
+**Kurva Loss (Generator vs Discriminator)**
+
+Selama proses training, perubahan nilai loss Generator dan Discriminator divisualisasikan dalam bentuk grafik. Visualisasi ini membantu kita memahami bagaimana kedua model saling berkompetisi dan beradaptasi dari awal hingga akhir epoch.
+
+![Gambar hasil kurva loss](kurva.jpg)
+
+Pada epoch awal (0–20), Generator Loss sempat meningkat tajam sebelum akhirnya menurun dan stabil. Hal ini wajar karena Generator masih beradaptasi untuk menghasilkan gambar yang menyerupai data asli.
+
+Pada epoch pertengahan (20–60), kurva Generator dan Discriminator cenderung stabil, menandakan proses pelatihan mulai seimbang.
+
+Pada epoch lanjut (60–100), kurva menunjukkan bahwa nilai loss Generator dan Discriminator tetap konsisten tanpa perubahan signifikan, menandakan model sudah mencapai kondisi convergence yang baik.
