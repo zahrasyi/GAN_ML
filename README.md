@@ -32,3 +32,9 @@ Jalankan cell secara berurutan:
 `4.` Loop Training GAN  
 `5.` Visualisasi Loss  
 `6.` Hasil Gambar Generator  
+
+# Visualisasi
+
+Selama proses training, model mencatat perkembangan nilai loss Generator (G) dan Discriminator (D) dari epoch 1 hingga epoch 100.
+
+![Gambar hasil epoch 20](Hasil GAN/epoh 20.jpg)
