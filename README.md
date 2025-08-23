@@ -22,7 +22,7 @@ pip install torch torchvision matplotlib
 
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
 
-# ▶️ Menjalankan Project
+# Menjalankan Project
 
 Buka file notebook  
 train_gan.ipynb  
