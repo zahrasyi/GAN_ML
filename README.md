@@ -4,14 +4,14 @@ Tujuan dari proyek ini adalah mempelajari cara kerja GAN dalam menghasilkan gamb
 
 # Struktur Project
 GAN-Project: 
-- data/FashionMNIST/raw          # Folder untuk menyimpan hasil gambar dari Generator
-- generated-images               # Folder untuk menyimpan model yang sudah dilatih
-- README.md                      # Dokumentasi project
+- data/FashionMNIST/raw  ----Folder untuk menyimpan hasil gambar dari Generator
+- generated-images       ----Folder untuk menyimpan model yang sudah dilatih
+- README.md              ----Dokumentasi project
 - discriminator_fixed.pth        
 - ganerator_fixed.pth            
-- gan_ml.ipynb                   # notebook utama (kode GAN + visualisasi)
-- kurva.jpg
-- running_epoch.jpg              # visualisasi hasil per-epoch nya
+- gan_ml.ipynb           ----notebook utama (kode GAN + visualisasi)
+- kurva.jpg              ----visualisasi kurva
+- running_epoch.jpg      ----visualisasi hasil per-epoch nya
 
 # Clone repository
 git clone https:[https://github.com/zahrasyi/GAN_ML.git]
