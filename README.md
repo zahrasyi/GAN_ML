@@ -7,18 +7,24 @@ GAN-Project:
 - data/FashionMNIST/raw          # Folder untuk menyimpan hasil gambar dari Generator
 - generated-images               # Folder untuk menyimpan model yang sudah dilatih
 - README.md                      # Dokumentasi project
-- discriminator_fixed.pth        # Notebook utama (kode GAN + visualisasi)
-- ganerator_fixed.ipynb          # Daftar library yang dibutuhkan
+- discriminator_fixed.pth        
+- ganerator_fixed.pth            
+- gan_ml.ipynb                   # notebook utama (kode GAN + visualisasi)
+- kurva.jpg
+- running_epoch.jpg              # visualisasi hasil per-epoch nya
 
 # Clone repository
-git clone https:[(https://github.com/zahrasyi/GAN_ML.git)]
+git clone https:[https://github.com/zahrasyi/GAN_ML.git]
 cd GAN-Project
 
 Install dependency
 - Dengan pip
-pip install torch torchvision matplotlib
+
+[ `pip install torch torchvision matplotlib` ]
+
 - Dengan conda
-conda install pytorch torchvision torchaudio cpuonly -c pytorch
+
+[ `conda install pytorch torchvision torchaudio cpuonly -c pytorch` ]
 
 # Menjalankan Project
 
