@@ -37,4 +37,4 @@ Jalankan cell secara berurutan:
 
 Selama proses training, model mencatat perkembangan nilai loss Generator (G) dan Discriminator (D) dari epoch 1 hingga epoch 100.
 
-![Gambar hasil epoch 20](Hasil GAN/epoh_100.jpg)
+![Gambar hasil epoch 20](generated_images/epoch_10.png)
