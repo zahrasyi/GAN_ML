@@ -1,4 +1,4 @@
-# Implementasi Generative Adversarial Network (GAN)
+# Implementasi Generative Adversarial Network (GAN)- kelompok 1
 Proyek ini merupakan implementasi Generative Adversarial Network (GAN) sederhana menggunakan PyTorch.
 Tujuan dari proyek ini adalah mempelajari cara kerja GAN dalam menghasilkan gambar baru dari dataset MNIST, serta memvisualisasikan proses pelatihan melalui grafik loss dan contoh gambar yang dihasilkan Generator.
 
@@ -11,7 +11,7 @@ GAN-Project:
 - ganerator_fixed.ipynb          # Daftar library yang dibutuhkan
 
 # Clone repository
-git clone https:[//github.com/username/GAN-Project.git](https://github.com/zahrasyi/GAN_ML.git)
+git clone https:[(https://github.com/zahrasyi/GAN_ML.git)]
 cd GAN-Project
 
 Install dependency
