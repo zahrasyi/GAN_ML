@@ -15,11 +15,9 @@ git clone https:[//github.com/username/GAN-Project.git](https://github.com/zahra
 cd GAN-Project
 
 Install dependency
-🔹 Dengan pip
+- Dengan pip
 pip install torch torchvision matplotlib
-
-🔹 Dengan conda
-
+- Dengan conda
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
 
 # Menjalankan Project
