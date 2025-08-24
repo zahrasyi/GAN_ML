@@ -14,7 +14,7 @@ GAN_kelompok1:
 - running_epoch.jpg      ----visualisasi hasil per-epoch nya
 
 # Clone repository
-git clone https:[https://github.com/zahrasyi/GAN_kelompok1.git]
+git clone https:[https://github.com/zahrasyi/GAN_ML.git]
 cd GAN_kelompok1
 
 Install dependency
