@@ -15,7 +15,8 @@ GAN_kelompok1:
 
 # Clone repository
 git clone https:[https://github.com/zahrasyi/GAN_ML.git]
-cd GAN_kelompok1
+
+cd GAN_ML
 
 Install dependency
 - Dengan pip
