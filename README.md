@@ -28,7 +28,6 @@ Install dependency
 [ `conda install pytorch torchvision torchaudio cpuonly -c pytorch` ]
 
 # Menjalankan Project
-
 Buka file notebook  
 GAN_kelompok1.ipynb  
 di Jupyter Notebook atau VS Code (dengan Jupyter extension).  
